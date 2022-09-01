@@ -1,0 +1,52 @@
+.form_container {
+  border: 1px solid #00f;
+  border-radius: 10px;
+}
+.form_container main {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
+.main_title {
+  color: #fff;
+  background: #00f;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 10px 10px 0 0;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.title {
+  min-width: 200px;
+}
+.form_container input,
+.form_container select {
+  width: 100%;
+  outline: unset;
+  padding: 10px;
+  border-radius: 10px;
+}
+.button_bar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.button_bar button {
+  padding: 10px 20px;
+  outline: unset;
+  border: unset;
+  background: #2781f0;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cancel {
+  background: #999 !important;
+}

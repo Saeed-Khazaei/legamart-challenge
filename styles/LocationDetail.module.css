@@ -1,0 +1,21 @@
+.container {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  color: rgb(0, 136, 0);
+  font-weight: 600;
+}
+
+.edit_btn {
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: rgb(0, 142, 207);
+  color: #fff;
+  align-self: flex-end;
+  cursor: pointer;
+}
